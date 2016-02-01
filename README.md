@@ -1,4 +1,4 @@
-## Test Nava Planetary Sound API
+# Test Nava Planetary Sound API
 
 **Assumptions**
 
@@ -6,14 +6,14 @@
 2. The Sound API service is currently not working with parameter q specified therefore correspoinding tests will fail
 3. Nasa developer key has hourly limit of 1,000 requests and is used in general API calls to avoid over rate limit exception
 
-# Test Sound Search Text
+## Test Sound Search Text
 * No Search Text 
 * Valid Search Text 
 * Invalid Search Text Format 
 * Empty Search Text
 * Null Search Text
 
-# Test Sound Return Limit
+## Test Sound Return Limit
 * Default Limit 
 * Valid limit Size 
 * Invalid Limit Format 
@@ -22,7 +22,7 @@
 * Negative Limit Size
 * Zero Limit Size
 
-# Test API Key 
+## Test API Key 
 * No API Key
 * Non Exist API Key
 * Invalid API Key 
@@ -31,7 +31,7 @@
 * Demo API Key
 * Developer API Key
 
-# Test Parameter Permutations
+## Test Parameter Permutations
 * No Parameters
 * All Parameters
 * Text and Limit Parameters 
